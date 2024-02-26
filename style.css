@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    margin-top: 2.5vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+h2{
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.color{
+    position: relative;
+    top: 7vh;
+    left: 35vw;
+    border: 0.4vw solid black;
+    border-radius: 2vw;
+    padding: 7vw;
+    margin: 0.8vw;
+}
+
+.red{
+    background-color: tomato;
+}
+
+.green{
+    background-color: rgb(41, 203, 57);
+}
+
+.yellow{
+    background-color: rgb(244, 244, 31);
+}
+
+.blue{
+    background-color: lightseagreen;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: rgb(192, 60, 194);
+}
+
+.scoreboard{
+    display: flex;
+    margin-top: 0.7vw;
+}
+
+.score{
+    display: flex;
+    position: relative;
+    left: 42vw;
+    font-size: 2vw;
+    margin-right: 2vw;
+}
+
+.highscore{
+    display: flex;
+    position: relative;
+    font-size: 2vw;
+    margin-left: 45vw;
+}
